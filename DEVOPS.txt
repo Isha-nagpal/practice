@@ -1,0 +1,35 @@
+
+Developers team :
+
+             plan,  code,  build,        test
+            (jira,   git,  gradle/maven,  selenium)
+                        |
+                        |
+                        |
+                 INTEGRATE( jenkins )
+                        |
+                        |
+                        |
+Operations team:
+
+            deploy,             operate,      monitor
+   (ansible/docker/kubernates,   jira,         aws cloudwatch)
+
+--------------------------------------------------------------------------
+(general devops)-- yt
+--------------------------------------------------------------------------
+
+DEVOPS LIFECYCLE :
+
+1.Version Control     2. Continuous Integration     3. Continuous Delivery     4. Continuous Deployment     5. Continuous Monitoring
+     ( GIT )                  
+
+----------------------------------------------------------------------------
+
+VERSION CONTROL :  Centralized and    Distributed
+                   (repository)    (local repository)
+                                      called GIT
+
+-----------------------------------------------------------------------------
+
+mvn archetype:generate 
